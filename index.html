@@ -77,9 +77,8 @@
       position: absolute;
       left: 44.9vw;
       font-size: 3.2vw;
-      color: #6b6b6b;
+      color: black;
       /* text-shadow: 0 0 0.8px #444; */
-      font-family:myFont, sans-serif;
       font-weight:normal;
     }
 
@@ -114,10 +113,18 @@
 
     #enter-state {
       position: absolute;
-      width: 40vw;
+      width: 72vw;
       left: 50vw;
       transform: translateX(-50%);
-      bottom: 184vw;
+      bottom: 180vw;
+    }
+
+    #enter-box {
+      position: absolute;
+      width: 40.5vw;
+      bottom: 94.3vw;
+      left: 50vw;
+      transform: translateX(-50%);
     }
 
     #enter-img {
@@ -135,7 +142,7 @@
       position: absolute;
       color: black;
       left: 48.6vw;
-      bottom: 162.2vw;
+      bottom: 162vw;
       /* opacity: 0.5; */
       font-size: 4vw;
       display: block;
@@ -147,8 +154,8 @@
       position: absolute;
       left: 50vw;
       transform: translateX(-50%);
-      bottom: 184vw;
-      width: 40vw;
+      bottom: 180vw;
+      width: 72vw;
       height: 10vw;
       color: #00000000;
       background: #00000000;
@@ -165,12 +172,11 @@
     #enter-dateTime {
       position: absolute;
       left: 50vw;
-      bottom: 155.4vw;
+      bottom: 155.2vw;
       font-size: 4vw;
       transform: translateX(-50%);
       color: #34a853;
-      font-family:Yu Gothic UI;
-      font-weight:bold;
+      font-weight:normal;
     }
   </style>
 </head>
@@ -185,6 +191,7 @@
     <div id="enter-title">
       <p>出校码</p>
     </div>
+    <img id="enter-box" src="./imgs/box.gif" />
     <img id="enter-avatar">
     <div id="enter-dateTime"></div>
     <div class="enter-text" id="enter-name"></div>
