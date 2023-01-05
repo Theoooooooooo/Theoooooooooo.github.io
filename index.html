@@ -185,11 +185,11 @@
   <div class="main" id="enterMain">
     <!-- 出入校码页面 -->
     <img class="enter-code" src="./imgs/enterCode.jpg" />
-    <img id="enter-state" src="./imgs/out.jpg" />
+    <img id="enter-state" src="./imgs/in.jpg" />
     <button class="state-button" onclick="state()"></button>
     <img id="enter-img" src="./imgs/buaa_logo.jpg" />
     <div id="enter-title">
-      <p>出校码</p>
+      <p>入校码</p>
     </div>
     <img id="enter-box" src="./imgs/box.gif" />
     <img id="enter-avatar">
@@ -224,7 +224,7 @@
     document.getElementById('enter-name').innerHTML = name;
     document.getElementById('enter-gender').innerHTML = gender;
     document.getElementById('enter-id').innerHTML = id;
-    document.getElementById('enter-avatar').src = './imgs/avatar/' + avatar + '.png';
+    document.getElementById('enter-avatar').src = './imgs/avatar/' + avatar + '.jpg';
     function state() {
       isIn = !isIn;
       if (isIn) {
